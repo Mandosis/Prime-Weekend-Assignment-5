@@ -1,0 +1,30 @@
+body {
+  background: #F5F5F5;
+}
+
+.navbar {
+  background: #FFF;
+  height: 80px;
+  padding-top: 13px;
+}
+.true {
+  background-color:  #dff0d8 !important;
+}
+
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #E5E5E5;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #EEE;
+}
+
+.table-hover>tbody>tr:hover {
+  background-color: #E9E9E9;
+  transition: background-color 0.2s ease-in;
+}
+
+.table-hover>tbody>tr.true:hover {
+  background-color: #DFFFD8 !important;
+}
